@@ -5,7 +5,7 @@ import (
 	"time"
 
 	goiprequest "github.com/ihsanardanto-djoin/go-ip-request"
-	goratelimit "github.com/ihsanardanto/go-ratelimit"
+	goratelimit "github.com/ihsanardanto-djoin/go-ratelimit"
 	"github.com/labstack/echo/v4"
 	"golang.org/x/time/rate"
 )
