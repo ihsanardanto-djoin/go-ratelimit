@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	goratelimit "github.com/ihsanardanto/go-ratelimit"
-	ginratelimit "github.com/ihsanardanto/go-ratelimit/wrapper/gin"
+	goratelimit "github.com/ihsanardanto-djoin/go-ratelimit"
+	ginratelimit "github.com/ihsanardanto-djoin/go-ratelimit/wrapper/gin"
 )
 
 func main() {
@@ -19,7 +19,7 @@ func main() {
 	r.Use(ginratelimit.RateLimitMiddleware(rl))
 
 	// Define your routes and handlers here
-	r.GET("/ping", func(c *gin.Context) {
+	r.GET("/", func(c *gin.Context) {
 		c.String(http.StatusOK, "Hello, World!\n")
 	})
 

@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
-	"github.com/go-chi/chi"
-	goratelimit "github.com/ihsanardanto/go-ratelimit"
-	ratelimit "github.com/ihsanardanto/go-ratelimit/wrapper/http"
+	"github.com/go-chi/chi/v5"
+	goratelimit "github.com/ihsanardanto-djoin/go-ratelimit"
+	ratelimit "github.com/ihsanardanto-djoin/go-ratelimit/wrapper/http"
 )
 
 func main() {

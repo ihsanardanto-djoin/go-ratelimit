@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	goratelimit "github.com/ihsanardanto/go-ratelimit"
-	echowritelimit "github.com/ihsanardanto/go-ratelimit/wrapper/echo"
+	goratelimit "github.com/ihsanardanto-djoin/go-ratelimit"
+	echowritelimit "github.com/ihsanardanto-djoin/go-ratelimit/wrapper/echo"
 
 	"github.com/labstack/echo/v4"
 )
